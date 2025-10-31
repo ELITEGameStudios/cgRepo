@@ -1,6 +1,8 @@
 
-Tutorial 4 - Lighting Models
+Lecture 8 - Visual Effects Reflection
 
-If you look in the Tutorial 3 Shader Graph folder, you will find my lighting shader, which includes all three lighting models sectioned clearly into groups. You can also find the materials in the Tutorial 4 Materials folder, where you can edit them and see changes in the game objects in real time. The game objects and directional light should all be in samplescene.
-<img width="1074" height="615" alt="image" src="https://github.com/user-attachments/assets/cd91d16a-5cb5-4fbc-9441-d4cc92c1c480" />
-<img width="1467" height="555" alt="image" src="https://github.com/user-attachments/assets/87bba1f8-d463-422c-b646-4be950986293" />
+I tried my best to follow along with the pace of the class while also writing the shaders' code manually to the best of my ability. I understand the effect metallic is supposed to give; The visibility/intensity of your color becomes more or less dependent on the amount of light hitting its normal. Smoothness determines how much the light scatters or focuses on a given surface, and visually shows more or less blurred/accurate reflections of light surfaces. 
+
+Stencil buffers "assign" pixels stencil values depending on if a certain gameobject resides there or not, where you could use as a mask/transparency filter for gameobjects which detect this stencil value and are on those same pixels.
+
+The alpha texture simply takes the alpha value of the 2D texture since it stores info in RGBA format, which includes alpha data.
