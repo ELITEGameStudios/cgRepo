@@ -4,6 +4,8 @@ Lecture 9 - Shadows and Other Visual Effects
 Today, I answered some of my questions about implementing custom shadows with our own shaders. Code-wise I still have some questions since the backend code is hidden behind unity functions which do the math for us such as TransformWorldToShadowCoords(). Otherwise, the theory of understanding what the umbra, preumbra, and which types of light sources include a preumbra or not and why. 
 I also had a bit of fun with the Shadertoy website and will be using that to better understand how to implement things via shaders.
 
+In the Unity project, the submission items and workspace for today are located in Assets/Lecture9ActivityFoler 
+
 Strengths:
 -  Theoretical understanding of concepts, being able to determine and understand the basic theory of what is going on
 Weaknesses:
