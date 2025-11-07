@@ -1,8 +1,14 @@
 
-Lecture 8 - Visual Effects Reflection
+Lecture 9 - Shadows and Other Visual Effects
 
-I tried my best to follow along with the pace of the class while also writing the shaders' code manually to the best of my ability. I understand the effect metallic is supposed to give; The visibility/intensity of your color becomes more or less dependent on the amount of light hitting its normal. Smoothness determines how much the light scatters or focuses on a given surface, and visually shows more or less blurred/accurate reflections of light surfaces. 
+Today, I answered some of my questions about implementing custom shadows with our own shaders. Code-wise I still have some questions since the backend code is hidden behind unity functions which do the math for us such as TransformWorldToShadowCoords(). Otherwise, the theory of understanding what the umbra, preumbra, and which types of light sources include a preumbra or not and why. 
+I also had a bit of fun with the Shadertoy website and will be using that to better understand how to implement things via shaders.
 
-Stencil buffers "assign" pixels stencil values depending on if a certain gameobject resides there or not, where you could use as a mask/transparency filter for gameobjects which detect this stencil value and are on those same pixels.
+Strengths:
+-  Theoretical understanding of concepts, being able to determine and understand the basic theory of what is going on
+Weaknesses:
+-  Still looking to learn more in-depth knowledge for implementation. I don't think I can replicate these effects in code without help from an external source. This is not optimal.
 
-The alpha texture simply takes the alpha value of the 2D texture since it stores info in RGBA format, which includes alpha data.
+<img width="714" height="530" alt="image" src="https://github.com/user-attachments/assets/132c547a-468a-4978-99e4-fb96dcf7fbc6" />
+<img width="730" height="540" alt="image" src="https://github.com/user-attachments/assets/9a98c620-0b30-48df-aa89-44254db1c9b5" />
+
